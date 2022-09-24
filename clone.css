@@ -1,0 +1,308 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+p
+{
+     background-image:url();
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position:center;
+     background-attachment: fixed;
+}
+.Toptrending
+{
+    display: flex;
+    flex-direction: row;
+    overflow-x:inherit;
+    overflow-y: hidden;
+    max-width:1400px;
+    background-color:black;
+    opacity: 70%;
+    padding: 8px;
+    margin-left: 20px;
+    
+}
+img{
+    width: 250px;
+    height: 250px;
+    padding-left: 0px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    scroll-margin-bottom: 4px;
+}
+h3{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    z-index: 1;
+    opacity: 90%;
+}
+h1{
+    color:red;
+    background-color:black;
+    padding-left: 20px;
+    z-index: 3;
+    padding-bottom: 0px;
+    
+}
+.Toptrending :hover{
+    transform: scale(1.2);
+    opacity: 60%;
+}
+.banner{
+    
+   /*background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/05/MONEY-HEIST-SEASON-5.jpg);*
+    height: 550px;*/
+    background-size: cover;
+    background-color: white;
+    
+}
+button{
+    color:black;
+    opacity: 80%;
+    background-color:grey;
+    width: 100px;
+    padding: 3px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px ;
+}
+/*.background{
+    background:url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/05/MONEY-HEIST-SEASON-5.jpg);
+    height: 600px;
+    width: 100%;
+}*/
+.navbar{
+    float:right;
+}
+.navbar :hover{
+    transform: scale(1.2);
+}
+
+a{
+    width: 250px;
+    height: 250px;
+    padding-left: 0px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    scroll-margin-bottom: 4px;
+}
+.back{
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+    width:200px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:grey;
+    opacity: 50%;
+    color: white;
+    border-radius: 20px;
+}
+.back:hover{
+    transform:scale(1.2);
+    background-color: aqua;
+    color:black;
+}
+@media screen and (max-width:800px) {
+    
+    .Toptrending{
+        display: flex;
+        flex-direction:row;
+        overflow:scroll;
+        overflow-y: hidden;
+    
+    }
+    img{
+        width: 240px;
+        height: 240px;
+        padding-left: 0px;
+        padding-right: 2px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        scroll-margin-bottom: 1px;
+    }
+    .back{
+        margin-top: 30px;
+        margin-left: 350px;
+        margin-bottom: 30px;
+        width:180px;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color:grey;
+        opacity: 50%;
+        color: white;
+        border-radius: 20px;
+        background-position:relative;
+    }
+    }
+
+@media screen and (max-width:700px) {
+    
+.Toptrending{
+    display: flex;
+    flex-direction:row;
+    overflow:scroll;
+    overflow-y: hidden;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    scroll-margin-bottom: 1px;
+}
+.back{
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    width:150px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:grey;
+    opacity: 50%;
+    color: white;
+    border-radius: 20px;
+    background-position:relative;
+}
+}
+@media screen and (max-width:600px) {
+  
+.Toptrending{
+    display: flex;
+    flex-direction:row;
+    overflow:scroll;
+    overflow-y: hidden;
+
+}
+img{
+    width: 180px;
+    height: 180px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    scroll-margin-bottom: 1px;
+}
+.back{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    width:110px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:grey;
+    opacity: 50%;
+    color: white;
+    border-radius: 20px;
+    background-position:relative;
+}
+}
+
+@media screen and (max-width:500px) {
+   
+.Toptrending{
+    display: flex;
+    flex-direction:row;
+    overflow:scroll;
+    overflow-y: hidden;
+
+}
+img{
+    width: 135px;
+    height: 135px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    scroll-margin-bottom: 1px;
+}
+.back{
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-bottom: 30px;
+    width:90px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:grey;
+    opacity: 50%;
+    color: white;
+    border-radius: 20px;
+    background-position:relative;
+}
+}
+@media screen and (max-width:400px) {
+
+.Toptrending{
+    display: flex;
+    flex-direction:row;
+    overflow:scroll;
+    overflow-y: hidden;
+
+}
+img{
+    width:100px;
+    height:100px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    scroll-margin-bottom: 1px;
+}
+.back{
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+    width:70px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:grey;
+    opacity: 50%;
+    color: white;
+    border-radius: 20px;
+    background-position:relative;
+}
+}
+
+@media screen and (max-width:300px) {
+  
+.Toptrending{
+    display: flex;
+    flex-direction:column;
+    overflow:scroll;
+    overflow-y: hidden;
+
+}
+img{
+    width:200px;
+    height:200px;
+    padding-left: 0px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    scroll-margin-bottom: 1px;
+}
+}
